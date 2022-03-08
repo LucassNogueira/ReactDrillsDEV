@@ -11,7 +11,6 @@ function App() {
     .map((el, index) => {
       return <h2 key={index}>{el}</h2>;
     });
-
   return (
     <div className="App">
       <input type="text" onChange={(e) => setUserInput(e.target.value)} />
